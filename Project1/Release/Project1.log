@@ -1,6 +1,9 @@
-﻿  Source.cpp
+﻿  Records.cpp
+  Source.cpp
   Generating code
-  All 195 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  110 of 111 functions (99.1%) were compiled, the rest were copied from previous compilation.
+    22 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Project1.vcxproj -> D:\Study\C++\study1\Release\Project1.exe
   Project1.vcxproj -> D:\Study\C++\study1\Release\Project1.pdb (Full PDB)
