@@ -37,6 +37,39 @@ namespace Records {
 		cout << "Salary: $" << getSalary() << endl;
 		cout << endl;
 	}
+
+	// accessors & setters
+	void Employee::setFirstName(string inFirstName) {
+		mFirstName = inFirstName;
+	}
+
+	string Employee::getFirstName() const {
+		return mFirstName;
+	}
+
+	void Employee::setLastName(string inLastName) {
+		mLastName = inLastName;
+	}
+
+	string Employee::getLastName() const {
+		return mLastName;
+	}
+
+	void Employee::setEmployeeNumber(int inEmpNum) {
+		mEmployeeNumbrer = inEmpNum;
+	}
+
+	int Employee::getEmployeeNumber() const {
+		return mEmployeeNumbrer;
+	}
+
+	void Employee::setSalary(int inSalary) {
+		mSalary = inSalary;
+	}
+
+	int Employee::getSalary() const {
+		return mSalary;
+	}
 }
 
 
